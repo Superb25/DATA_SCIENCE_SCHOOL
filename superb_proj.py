@@ -73,24 +73,24 @@ def skill_rank_prediction():
     y_train_pred = load_model.predict(t_X_test)
     y_train_pred
     if (y_train_pred[0] == 0):
-        return 'skill_group_rank'
+        return 'y_train_pred'
     else:
         return 'skill not ranked'
 
-
 def main():
+
     st.title('Skill Rank Prediction App')
     # giving data input
-    year = st.number_input('Enter year here')
-    isic_section_name = st.text_input('Enter industry name')
-    skill_group_category = st.text_input('Enter skill Category')
+    year = st.text_input('Enter year')
+    isic_section_name = st.text_input('Enter isic_section_name')
+    skill_group_category = st.text_input('Enter skill_group_category')
 
     # code for prediction
     skill_pred = ''
 
     # create a prediction button
     if st.button('Skill_rank_prediction'):
-        skill_pred = skill_rank_prediction([year, isic_section_name, skill_group_category])
+        skill_pred = skill_rank_prediction()
 
     st.success(skill_pred)
 
