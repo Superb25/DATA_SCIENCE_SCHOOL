@@ -97,7 +97,7 @@ sklearn
 smmap==5.0.0
 soupsieve==2.3.2.post1
 stack-data==0.2.0
-streamlit
+streamlit==1.9.0
 tenacity==8.0.1
 terminado==0.15.0
 threadpoolctl==3.1.0
