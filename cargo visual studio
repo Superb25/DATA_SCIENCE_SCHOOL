@@ -1,7 +1,10 @@
 
 C:\Users\user>rustup show
 Default host: x86_64-pc-windows-msvc
-rustup home:  C:\Users\user\.rustup
+C:\Users\user\.rustup
+C:\Users\user\.cargo
 C:\Users\user>cargo new project
 C:\Users\user>dir
 C:\Users\user\Documents\project
+C:\Users\user>rustup show
+%USERPROFILE%\.cargo\bin)
