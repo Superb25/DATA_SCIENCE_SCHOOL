@@ -120,10 +120,9 @@ Werkzeug==2.1.2
 widgetsnbextension==3.6.0
 zipp==3.8.0
 
-C:\Users\user\.rustup
+
 C:\Users\user\.cargo
 C:\Users\user>cargo new project
 C:\Users\user>dir
 C:\Users\user\Documents\project
-C:\Users\user>rustup show
 %USERPROFILE%\.cargo\bin
