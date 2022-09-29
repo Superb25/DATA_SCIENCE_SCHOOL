@@ -62,10 +62,10 @@ st.line_chart(chart_data)
 st.sidebar.write('Code on Github repository')
 st.sidebar.write('https://github.com/Superb25/Amina_ADS_proj/blob/main/ADS%20PROJECT.ipynb')
 
-import pickle
-filename = 'trained_model.sav'
-pickle.dump(model, open(filename, 'wb'))
-load_model = pickle.load(open('trained_model.sav', 'rb'))
+#import pickle
+#filename = 'trained_model.sav'
+#pickle.dump(model, open(filename, 'wb'))
+#load_model = pickle.load(open('trained_model.sav', 'rb'))
 
 
 # creating a function for prediction
