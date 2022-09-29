@@ -120,7 +120,6 @@ Werkzeug==2.1.2
 widgetsnbextension==3.6.0
 zipp==3.8.0
 
-Default host: x86_64-pc-windows-msvc
 C:\Users\user\.rustup
 C:\Users\user\.cargo
 C:\Users\user>cargo new project
