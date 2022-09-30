@@ -90,6 +90,7 @@ scikit-learn
 scipy
 seaborn
 semver==2.13.0
+sacremoses-0.0.53
 Send2Trash==1.8.0
 six==1.16.0
 sklearn==0.0.0
